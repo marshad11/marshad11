@@ -1,0 +1,27 @@
+table{
+    margin:auto ;
+    text-align: center;
+    
+}
+th {
+    border: 1.5px solid yellow;
+    
+}
+td {
+    border: 1.5px dotted black;
+    background: rgb(0, 255, 0);
+}
+.one {
+    padding: 20px 60px;
+}
+.two {
+    padding: 20px 40px;
+}
+#grdt {
+    background: linear-gradient(to right, black, blue, pink);
+    color: white;
+}
+#grdt1 {
+    background: linear-gradient(to right, black, blue, pink);
+    color: white;
+}
