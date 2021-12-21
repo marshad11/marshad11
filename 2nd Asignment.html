@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> 2nd Assignment </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./2nd Asignment.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+        <div class="main">
+            <h1> Application For Addmission </h1>
+            <p> <span> Note:</span> Form si to be complete at least 21 days prior to date </p>
+            <form action="">
+                <fieldset>
+                    <legend> Personal Details </legend>
+                    <label for="name"> Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name Here" class="a"><br><br>
+                    <label for="address"> Address: </label>
+                    <input type="text" id="address" name="address" placeholder="Enter Address Here" class="a"><br><br>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter Emial Here" class="a"><br><br>
+                    <label for="phone"> Phone Number: </label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter 11 Digit Number" class="a"><br><br>
+                    <label for="iq"> IQ: </label>
+                    <input type="text" id="iq" name="iq" placeholder="Enter IQ Here" class="a">
+                    <h4>Gerder</h4>
+                    <input type="radio" id="male" class="one" name="gender" checked>
+                    <label for="male" class="two"> Male </label><br><br>
+                    <input type="radio" id="female" class="one" name="gender" >
+                    <label for="female" class="two"> Female </label><br><br>
+                    <input type="radio" id="other" class="one" name="gender" >
+                    <label for="other" class="two"> Other </label><br><br>
+                    <label for="date"> Date of Application: </label>
+                    <input type="date" id="date" name="date">
+                </fieldset>
+                <fieldset>
+                    <h4> Check All That Apply </h4>
+                    <input type="checkbox"  class="one">
+                    <label for="" class="two"> I have tattoos and/or piercinds</label><br>
+                    <input type="checkbox" class="one" checked>
+                    <label for="" class="two"> I am more then 18 years old </label><br>
+                    <input type="checkbox" class="one">
+                    <label for="" class="two"> I own a penal van and V8 ute </label><br>
+                    <input type="checkbox" class="one" checked>
+                    <label for="" class="two"> I work full-time</label><br>
+                    <input type="checkbox" class="one">
+                    <label for="" class="two"> My perents are rich </label><br>
+                    <input type="checkbox" class="one" checked>
+                    <label for="" class="two"> Is the date at a well lit public location </label><br>
+                </fieldset>
+                <fieldset>
+                    <label for="political"> Political Persuasion: </label>
+                    <select name="political" id="political">
+                        <option value="jui"> JUI </option>
+                        <option value="mqm"> MQM </option>
+                        <option value="pmln"> PMLN </option>
+                        <option value="pti"> PTI </option>
+                    </select>
+                    <label for="education"> Education Level completed: </label>
+                    <select name="education" id="education">
+                        <option value="school"> School </option>
+                        <option value="enter"> Enter </option>
+                        <option value="uni"> University</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Essay Section </legend>
+                    <label for="explain"> In 50 words or more explain why you want to addmission </label><br><br>
+                    <textarea name="explain" id="explain" cols="30" rows="6" placeholder=" Enter Text Here" ></textarea><br><br>
+                    <label for="contact"> Please upload contact details for 2 references </label><br>
+                    <textarea name="contact" id="contact" cols="30" rows="6" placeholder=" Enter Text Here" ></textarea><br><br>
+                    <label for="file"> Upload Police Clearance Certificate, Bank Statement and Medical Certificates: </label>
+                    <input type="submit" value="Attach Files" class="af">
+                </fieldset>
+                <div class="end">
+                    <input type="submit" value="Send Your Application" class="sya">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

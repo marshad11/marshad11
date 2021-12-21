@@ -1,0 +1,52 @@
+html, body {
+    background-color: papayawhip;
+    
+}
+.main {
+    border: .5px solid black;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: slategrey 1px 2px 2px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Tim;
+}
+span, legend {
+    font-weight: bolder;
+}
+fieldset {
+    margin: 5px;
+    border-color: wheat;
+}
+.a {
+    display: inline;
+}
+.one {
+    margin-left: 90px;
+}
+.two {
+    margin-left: 100px;
+}
+.af {
+    background-color: red;
+    border: .5px solid wheat;
+    border-radius: 3px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gainsboro;
+}
+.sya {
+    background-color: red;
+    border: .5px solid wheat;
+    border-radius: 3px;
+    height: 25px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gainsboro;
+    margin: 5px 0 10px 275px;
+    text-justify: inter-word;
+}
